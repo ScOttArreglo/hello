@@ -1,7 +1,14 @@
-#navigation-bar {
-    text-align: right;
+.n {
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
 }
 
-#search-bar {
+.s {
     text-align: center;
+    clear: both;
+}
+
+#sb {
+    margin-top: 10px;
 }
