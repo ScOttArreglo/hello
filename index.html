@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Google Search</title>
-    <link rel="stylesheet" href="styles.css">
-
-    <div class="n">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
         <div>
-            <a href="image-search.html">Image Search</a> &nbsp; &nbsp;
-            <a href="advanced-search.html">Advanced Search</a>
+            <ul class="navbar-google">
+                <li class="navbar-item"><a href="image-search.html">Images</a></li>
+                <li class="navbar-item"><a href="advanced-search.html">Advanced</a></li>
+            </ul>
         </div>
-    </div>
-
-</head>
-<body>
-
-    <div class="s">
-        <form action="https://www.google.com//search">
-            <div>
-                <input type="text" name="q">
-            </div>
-            <div>
-                <input type="submit" value="Google Search" name="Google Search" id="sb">
-            </div>
+        <div>
+            <img class="google-img" src="images/google.png" alt="Google">
+        </div>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
         </form>
-    </div>
-
-</body>
+    </body>
 </html>
